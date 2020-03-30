@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "nodejs project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singhayush1403/nodejs-project.git"
+  },
+  "author": "Ayush Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singhayush1403/nodejs-project/issues"
+  },
+  "homepage": "https://github.com/singhayush1403/nodejs-project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4"
+  }
+}
