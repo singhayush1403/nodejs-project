@@ -10,7 +10,7 @@ router.get('/',(req,res,next)=>{
     //console.log('In MAIN middleware');
    const products=adminData.products;
 
-    res.render('shop',{prods:products,docTitle:'Shop'});
+    res.render('shop',{prods:products,pageTitle:'Shop'});
     });
 
     module.exports=router;
