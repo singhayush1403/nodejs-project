@@ -126,7 +126,13 @@ form {
 .centered{
   text-align: center;
 }
+.image{
+  height: 20rem;
+}
 
+.image img{
+  height: 100%;
+}
 .backdrop {
   position: fixed;
   top: 0;
